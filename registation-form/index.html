@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Registration Form</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form" action='https://register-demo.freecodecamp.org'>
+    <fieldset>
+      <label id="name-label">Enter Your First Name: <input id="name" type="text" name="first-name" placeholder="First Name" required /></label>
+      <label id="name-label">Enter Your Last Name: <input id="name" type="text" name="last-name" placeholder="Last Name" required /></label>
+      <label id="email-label">Enter Your Email: <input id="email" type="email" name="email" placeholder="Valid Email" required /></label>
+      <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" placeholder="Minimum of 8 Characters" required /></label>
+    </fieldset>
+    <fieldset>
+      <label><input type="radio" name="account-type" class="inline" value="pAccount" /> Personal Account</label>
+      <label><input type="radio" name="account-type" class="inline" value="bAccount" /> Business Account</label>
+      <label>
+        <input type="checkbox" name="tandc" class="inline" value="termsAndCondition" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <label for="">
+        <input type="checkbox" name="coc" class="inline" value="codeOfConduct" required /> I accept the <a href="https://everfi.com/blog/workplace-training/4-of-the-best-company-code-of-conduct-examples/">Code of Conduct (COC)</a>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>Upload a profile picture: <input type="file" name="file" /></label>
+      <label id="number-label">Input your age (years): <input id="number" type="number" name="age" min="13" max="120" placeholder="Age" />
+      </label>
+      <label>How did you hear about us?
+        <select id="dropdown" name="referrer">
+          <option value="">(select one)</option>
+          <option value="1">freeCodeCamp News</option>
+          <option value="2">freeCodeCamp YouTube Channel</option>
+          <option value="3">freeCodeCamp Forum</option>
+          <option value="4">Other</option>
+        </select>
+      </label>
+      <label>Provide a bio:
+        <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+      </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>

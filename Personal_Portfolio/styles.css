@@ -1,0 +1,224 @@
+:root {
+  --page-color1: #aa80ff;
+  --page-color2: #66cc99;
+  --page-color3: #cc6699;
+  --page-color4: #34495E;
+  --page-color5: #cfd8dc;
+  --page-color6: #000;
+  --mask-color1: #bb99ff;
+  --mask-color2: #8cd9b3;
+  --mask-color3: #d98cb3;
+  --mask-color4: #85929E;
+  --txt-color1: #D7DBDD;
+  --txt-color2: #17202A
+  --txt-color3: #000
+
+  --radius: 0.2rem;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Kantumruy+Pro&family=Open+Sans&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--txt-color1);
+}
+
+h1,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+/* img {
+  display: block;
+  width: 100%;
+} */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(to left, var(--page-color1) 25%, var(--mask-color1));
+  box-shadow: 0px 2px 10px var(--page-color5);
+  border-radius: var(--radius);
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.3rem;
+  padding: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--txt-color3);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--page-color5);
+  background-image: linear-gradient(62deg, var(--page-color4) 0%, var(--mask-color4) 100%);
+}
+
+.welcome-section h1, h3 {
+  color: var(--txt-color1);
+  font-weight: bolder;
+}
+
+.welcome-section h1{
+  font-size: 5rem;
+}
+
+.welcome-section h3 {
+  font-size: 4rem;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background-image: linear-gradient(62deg, var(--page-color2) 0%, var(--mask-color2) 30%);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+
+/* "Automagic" image grid using no media queries */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.projects-grid a {
+  text-decoration: none;
+}
+
+.project-image {
+  display: block;
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  margin-top: 15px;
+}
+
+.project {
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+
+#contacts a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background-image: linear-gradient(62deg, var(--page-color3) 0%, var(--mask-color3) 20%);
+}
+
+
+.contact-section-header > h3, h5, p {
+  color: var(--txt-color3);
+  font-weight: bolder;
+}
+
+.contact-section-header h3 {
+  font-size: 5rem;
+}
+
+.contact-section-header h5 {
+  font-size: 3rem;
+}
+
+.contact-section-header p {
+  font-size: 1rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+footer {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--txt-color2);
+  border-top: 4px solid var(--mask-color3);
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
