@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../EPC_Telephone_Number_Validator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Telephone_Number_Validator_FreeCodeCamp"
+	}
+}

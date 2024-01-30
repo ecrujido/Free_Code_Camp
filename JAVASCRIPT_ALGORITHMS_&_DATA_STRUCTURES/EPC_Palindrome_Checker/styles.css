@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.B3EQhrzHPGIdVR16t8xg_gHaEK%26pid%3DApi&f=1&ipt=9be664a7fdd66a215f3391a5b10780e6f7c2dd1ffaa6111ad44dbc635d463718&ipo=images');
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    font-family: Tahoma, sans-serif;
+    color: #ffffff;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .pal-container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .pal-title {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .pal-div {
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 6px 6px #666a9e;
+  }
+
+  .pal-btn {
+    width: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5a01a7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .pal-input {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #032c3e;
+  }
+  
+  .pal-user-input {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .pal-input:focus {
+    border-bottom: 3px solid #032c3e;
+  }
+  
+  .pal-input::placeholder {
+    text-align: center;
+  }
+
+  .results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .palindrome-definition-div {
+    width: min(100vw, 450px);
+    font-size: 1.3rem;
+    min-height: 140px;
+    background-color: #00471b;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .palindrome-definition {
+    vertical-align: middle;
+    text-align: justify;
+  }
+  
+  footer {
+
+    align-items: center;
+    color: white; /* Set the text color */
+    text-align: center;
+
+  }
+  

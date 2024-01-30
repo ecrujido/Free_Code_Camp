@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin: 5px;
+}
+
+#changeBreakdown {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+
+#change-due {
+  text-align: left;
+  margin-bottom: 10px;
+}
+

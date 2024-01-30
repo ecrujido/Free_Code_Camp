@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cash Register Application</title>
+</head>
+<body>
+    <h3>Cash Register Application</h3>
+    <div id="change-due"></div>
+ 
+    <p id="price-screen" class="price-screen"></p>
+ 
+      <label for="amountPaid">Amount Paid:</label>
+      <input type="number" id="cash" class="user-input" value="" placeholder="amount">
+      <button id="purchase-btn" onclick="calculateChange()">Buy</button>
+   
+      <div id="cash-drawer-display" class="cash-drawer-display"></div>
+  <script src="script.js"></script>
+</body>
+</html>
