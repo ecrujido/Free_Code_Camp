@@ -1,0 +1,106 @@
+:root {
+  --background-color: #e6fff7;
+  --text-color: black;
+  --footer-color: black;
+  --box-color: #99ffdd;
+  --more-color: #66ffcc;
+  --less-color: #80ffd4;
+}
+
+
+.dark-mode {
+  --background-color: #000080;
+  --text-color: #808080;
+  --box-color: #0000b3;
+  --more-color: #00004d;
+  --less-color: #000066;
+  --footer-color: #808080;
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+.title {
+  background-color: var(--box-color);
+  border: 2px solid;
+  border-radius: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.drkmdbtn {
+  color: var(--text-color);
+}
+
+
+.drkmdbtn:hover {
+  color: var(--footer-color);
+}
+
+.more,
+.less {
+  color: black;
+  border-radius: 2rem;
+  border: 2px solid;
+  border-color: var(--text-color);
+}
+
+
+.less {
+  background-color: var(--less-color);
+}
+
+
+.more {
+  background-color: var(--more-color);
+}
+
+
+.less:hover,
+.more:hover {
+  background-color: var(--background-color);
+  border: 2px solid;
+  border-color: var(--text-color);
+}
+
+
+.container {
+  width: 20rem;
+  height: 15rem;
+  background-color: var(--box-color);
+  border-radius: 2rem;
+  border: 2px solid;
+  border-color: var(--text-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+.timedisplay {
+  font-size: 5rem;
+}
+
+.timedisplay-flash {
+  animation: flash 2s infinite;
+}
+
+@keyframes flash {
+  0% {
+    color: inherit;
+  }
+  50% {
+    color: #f55240;
+  }
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--footer-color);
+  font-size: small;
+  font-weight: bold;
+}
