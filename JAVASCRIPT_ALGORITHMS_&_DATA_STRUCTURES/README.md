@@ -12,7 +12,7 @@ Verify this certification at https://www.freecodecamp.org/certification/ecrujido
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
+### Overview
 
 All project that I've completed and that are part of the FreeCodeCamp's JavaScript Algorithms and Data Structures course can be found here.
 
@@ -37,10 +37,10 @@ All project that I've completed and that are part of the FreeCodeCamp's JavaScri
 
 Free Code Camp gave 5 challenging project to test my understanding on JavaScript and its Data Structure.
 
-## Author
+### Author
 
 - Codepen.io - [@ecrujido](https://codepen.io/ecrujido)
 
-## Acknowledgments
+### Acknowledgments
 
 Thank you Free Code Camp for delivering all those great lessons and projects!
