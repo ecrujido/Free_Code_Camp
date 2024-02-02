@@ -35,7 +35,7 @@ All project that I've completed and that are part of the FreeCodeCamp's JavaScri
 
 ### What I learned
 
-Free Code Camp gave 5 challenging project to test my understanding on JavaScript and its Data Structure.
+Free Code Camp gave 5 challenging project to test my understanding on JavaScript Algorithms and Data Structure.
 
 ### Author
 
