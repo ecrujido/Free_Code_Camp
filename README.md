@@ -1,4 +1,4 @@
-# My Journey into learning Software/Web Development courtesy of Free Code Camp.
+# My Journey into learning Software/Web Development
 
 <img src="EPC_FCC_JS_ALGORITHMS_&_DATA_STRUCTURES.PNG" alt="Course Certificate" width="700px"/>
 Verify this certification at https://www.freecodecamp.org/certification/ecrujido/javascript-algorithms-and-data-structures-v8
