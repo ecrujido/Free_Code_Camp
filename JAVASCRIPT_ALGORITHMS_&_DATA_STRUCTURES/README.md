@@ -1,7 +1,7 @@
 # JavaScript Algorithms and Data Structures Course
 
-<img src="./dv_course_cert.png" alt="Course Certificate" width="700px"/>
-Verify this certification at https://freecodecamp.org/certification/haanna/data-visualization
+<img src="EPC_FCC_JS_ALGORITHMS_&_DATA_STRUCTURES.PNG" alt="Course Certificate" width="700px"/>
+Verify this certification at https://www.freecodecamp.org/certification/ecrujido/javascript-algorithms-and-data-structures-v8
 
 ## Table of contents
 
