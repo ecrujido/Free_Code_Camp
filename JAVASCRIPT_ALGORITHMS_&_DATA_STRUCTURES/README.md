@@ -43,4 +43,4 @@ Free Code Camp gave 5 challenging project to test my understanding on JavaScript
 
 ## Acknowledgments
 
-Thanks Free Code Camp for delivering all those lessons and great projects!
+Thank you Free Code Camp for delivering all those great lessons and projects!
