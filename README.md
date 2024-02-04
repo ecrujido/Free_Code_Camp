@@ -10,7 +10,7 @@ Verify this certification at https://www.freecodecamp.org/certification/ecrujido
 
 ### Overview
 
-This are the courses which I have studied and learned to become a Software/Web Developer.  This courses were taken with the intent to show credibility and to establish the work taken as the necessary steps to showcase the fundamental knowledge on the technologies utilized on modern websites.  I intend to utilize what I have learned to build software/web application.  And continously hone my craft to become a better developer.
+These are the courses which I have studied and learned to become a Software/Web Developer.  This courses were taken with the intent to show credibility and to establish the work taken as the necessary steps to showcase the fundamental knowledge on the technologies utilized on modern websites.  I intend to utilize what I have learned to build software/web application.  And continously hone my craft to become a better developer.
 
 ### Links
 
