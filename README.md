@@ -14,11 +14,12 @@ This are the courses which I have studied and learned to become a Software/Web D
 
 ### Links
 
-1. [Palindrome Checker](https://github.com/ecrujido/Free_Code_Camp/tree/0eb1b6f33b88fe184b4af01897ee800411925a47/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Palindrome_Checker) <br>
-2. [Roman Numeral Converter](https://github.com/ecrujido/Free_Code_Camp/tree/656774f5e65d31e5fa176e174ef89c0da5e8b916/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Roman_Numeral_Converter) <br>
-3. [Telephone Number Validator](https://github.com/ecrujido/Free_Code_Camp/tree/656774f5e65d31e5fa176e174ef89c0da5e8b916/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Telephone_Number_Validator) <br>
-4. [Cash Register](https://github.com/ecrujido/Free_Code_Camp/tree/0eb1b6f33b88fe184b4af01897ee800411925a47/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Cash_Register) <br>
-5. [Pokémon Search App](https://github.com/ecrujido/Free_Code_Camp/tree/617ebb235ead227de4c88b63c6443ec657ade2ac/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Pokemon_Search_App) <br>
+1. [Responsive Web Design](https://github.com/ecrujido/Free_Code_Camp/tree/0eb1b6f33b88fe184b4af01897ee800411925a47/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Palindrome_Checker) <br>
+2. [JavaScriot Algorithms and Data Structures](https://github.com/ecrujido/Free_Code_Camp/tree/656774f5e65d31e5fa176e174ef89c0da5e8b916/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Roman_Numeral_Converter) <br>
+3. [Front End Development Libraries](https://github.com/ecrujido/Free_Code_Camp/tree/656774f5e65d31e5fa176e174ef89c0da5e8b916/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Telephone_Number_Validator) <br>
+4. [Data Visualization](https://github.com/ecrujido/Free_Code_Camp/tree/0eb1b6f33b88fe184b4af01897ee800411925a47/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Cash_Register) <br>
+5. [Relational Database Certification](https://github.com/ecrujido/Free_Code_Camp/tree/617ebb235ead227de4c88b63c6443ec657ade2ac/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Pokemon_Search_App) <br>
+5. [Back End Development and API Certification](https://github.com/ecrujido/Free_Code_Camp/tree/617ebb235ead227de4c88b63c6443ec657ade2ac/JAVASCRIPT_ALGORITHMS_%26_DATA_STRUCTURES/EPC_Pokemon_Search_App) <br>
 
 ### Acknowledgments
 
