@@ -40,7 +40,7 @@ Here are the datasets you will need to complete this project:
 
 ### Links
 
-[Codepen](https://codepen.io/ecrujido/pen/)
+[Codepen](https://codepen.io/ecrujido/)
 
 ### Built with
 
