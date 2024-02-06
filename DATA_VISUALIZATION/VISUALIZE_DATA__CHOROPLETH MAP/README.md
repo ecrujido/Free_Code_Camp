@@ -60,7 +60,7 @@ How to create Choroplet map in D3.js, how to use scales, text, and assign variou
 
 ## Author
 
-- Codepen - [ecrujido](https://codepen.io/ecrujido)
+- Codepen - [ecrujido](https://codepen.io/ecrujido/)
 
 ## Acknowledgments
 
