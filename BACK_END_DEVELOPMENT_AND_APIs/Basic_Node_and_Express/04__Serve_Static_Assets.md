@@ -1,4 +1,4 @@
-#Serve Static Assets
+# Serve Static Assets  <br/>
 
 An HTML server usually has one or more directories that are accessible by the user. You can place there the static assets needed by your application (stylesheets, scripts, images).
 
