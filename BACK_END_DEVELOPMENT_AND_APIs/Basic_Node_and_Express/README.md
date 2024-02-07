@@ -20,6 +20,7 @@ There are also a couple of other methods which are used to negotiate a connectio
 
 ### Solution
 
+```
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post('/name', (req, res) => {
@@ -32,3 +33,5 @@ app.post('/name', (req, res) => {
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html');
 });
+
+```
