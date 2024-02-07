@@ -23,7 +23,7 @@ Note: The test will not pass if you don’t chain the middleware. If you mount t
 
 ## Solution
 
-```javaScrip
+```javaScript
 
   app.get("/now", (req, res, next) => {
     req.time = new Date().toString();
