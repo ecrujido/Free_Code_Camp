@@ -29,6 +29,7 @@ When using extended=false, values can be only strings or arrays. The object retu
 ```javaScript
 
 app.use(bodyParser.urlencoded({ extended: false }));
+
 app.post("/name", function(req, res) {
 
     const { first: firstName, last: lastName } = req.body;
