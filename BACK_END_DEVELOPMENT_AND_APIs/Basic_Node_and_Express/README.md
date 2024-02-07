@@ -20,7 +20,7 @@ There are also a couple of other methods which are used to negotiate a connectio
 
 ### Solution
 
-```
+```javaScript
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post('/name', (req, res) => {
