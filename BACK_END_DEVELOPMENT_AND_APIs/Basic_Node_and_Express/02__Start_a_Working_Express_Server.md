@@ -22,5 +22,10 @@ Use the app.get() method to serve the string "Hello Express" to GET requests mat
 
 ```javaScript
 
+const str = 'Hello Express';
+
+app.get("/", function(req, res) {
+    res.send(str);
+  });
 
 ```
