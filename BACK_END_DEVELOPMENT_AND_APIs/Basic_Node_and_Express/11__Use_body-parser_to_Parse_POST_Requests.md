@@ -37,6 +37,6 @@ app.post("/name", function(req, res) {
     res.json({
       name: `${firstName} ${lastName}`
     });
-  });
+});
 
 ```
