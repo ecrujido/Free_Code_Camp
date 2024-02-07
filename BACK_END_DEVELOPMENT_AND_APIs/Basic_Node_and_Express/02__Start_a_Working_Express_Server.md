@@ -26,6 +26,6 @@ const str = 'Hello Express';
 
 app.get("/", function(req, res) {
     res.send(str);
-  });
+});
 
 ```
