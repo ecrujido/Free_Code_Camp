@@ -22,7 +22,11 @@ mongoose@^5.11.15 has been added to your project’s package.json file. First, r
 
 When you are done, connect to the database by calling the connect method within your myApp.js file by using the following syntax:
 
+```javaScript
+
 mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true });
+
+```
 
 ## Solution
 
