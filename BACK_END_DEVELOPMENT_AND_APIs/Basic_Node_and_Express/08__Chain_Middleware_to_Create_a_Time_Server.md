@@ -1,4 +1,4 @@
-# Chain Middleware to Create a Time Server  <br/>
+## Chain Middleware to Create a Time Server  <br/>
 
 Middleware can be mounted at a specific route using app.METHOD(path, middlewareFunction). Middleware can also be chained within a route definition.
 
