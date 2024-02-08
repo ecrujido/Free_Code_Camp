@@ -23,4 +23,4 @@ These are the courses which I have studied and learned to become a Software/Web 
 
 ### Acknowledgments
 
-Thank you Free Code Camp for delivering all these great lessons and projects!  You have been a great help in my coding journey!
+Thank you Free Code Camp for delivering all these great lessons and projects!  <br/> You have been a great help in my coding journey!
