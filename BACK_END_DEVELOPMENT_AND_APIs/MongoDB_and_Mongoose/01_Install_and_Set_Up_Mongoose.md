@@ -1,4 +1,4 @@
-# Install and Set Up Mongoose
+## Install and Set Up Mongoose
 
 Working on these challenges will involve you writing your code using one of the following methods:
 
