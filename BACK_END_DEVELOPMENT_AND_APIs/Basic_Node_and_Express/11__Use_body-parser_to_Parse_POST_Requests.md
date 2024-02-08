@@ -1,4 +1,4 @@
-# Use body-parser to Parse POST Requests  <br/>
+## Use body-parser to Parse POST Requests  <br/>
 
 Besides GET, there is another common HTTP verb, it is POST. POST is the default method used to send client data with HTML forms. In REST convention, POST is used to send data to create new items in the database (a new user, or a new blog post). You don’t have a database in this project, but you are going to learn how to handle POST requests anyway.
 
