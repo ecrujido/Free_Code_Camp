@@ -1,4 +1,4 @@
-# Get Data from POST Requests <br/>
+## Get Data from POST Requests <br/>
 
 Mount a POST handler at the path /name. It’s the same path as before. We have prepared a form in the html frontpage. It will submit the same data of exercise 10 (Query string). If the body-parser is configured correctly, you should find the parameters in the object req.body. Have a look at the usual library example:
 
