@@ -9,15 +9,15 @@ In the MongoDB and Mongoose courses, you'll learn the fundamentals of working wi
 
 MongoDB and Mongoose   12 of 12 challenges completed
 
-Install and Set Up Mongoose
-Create a Model
-Create and Save a Record of a Model
-Create Many Records with model.create()
-Use model.find() to Search Your Database
-Use model.findOne() to Return a Single Matching Document from Your Database
-Use model.findById() to Search Your Database By _id
-Perform Classic Updates by Running Find, Edit, then Save
-Perform New Updates on a Document Using model.findOneAndUpdate()
-Delete One Document Using model.findByIdAndRemove
-Delete Many Documents with model.remove()
-Chain Search Query Helpers to Narrow Search Results
+Install and Set Up Mongoose  <br/>
+Create a Model  <br/>
+Create and Save a Record of a Model  <br/>
+Create Many Records with model.create()  <br/>
+Use model.find() to Search Your Database  <br/>
+Use model.findOne() to Return a Single Matching Document from Your Database  <br/>
+Use model.findById() to Search Your Database By _id  <br/>
+Perform Classic Updates by Running Find, Edit, then Save  <br/>
+Perform New Updates on a Document Using model.findOneAndUpdate()  <br/>
+Delete One Document Using model.findByIdAndRemove  <br/>
+Delete Many Documents with model.remove()  <br/>
+Chain Search Query Helpers to Narrow Search Results  <br/>
